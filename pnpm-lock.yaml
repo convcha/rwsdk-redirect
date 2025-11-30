@@ -20,6 +20,9 @@ importers:
       rwsdk:
         specifier: 1.0.0-beta.33
         version: 1.0.0-beta.33(@cloudflare/vite-plugin@1.15.2(vite@7.2.4(@types/node@24.5.2)(terser@5.44.1))(workerd@1.20251118.0)(wrangler@4.50.0(@cloudflare/workers-types@4.20251121.0)))(capnweb@0.2.0)(react-dom@19.3.0-canary-fb2177c1-20251114(react@19.3.0-canary-fb2177c1-20251114))(react-server-dom-webpack@19.3.0-canary-fb2177c1-20251114(react-dom@19.3.0-canary-fb2177c1-20251114(react@19.3.0-canary-fb2177c1-20251114))(react@19.3.0-canary-fb2177c1-20251114)(webpack@5.103.0))(react@19.3.0-canary-fb2177c1-20251114)(typescript@5.8.3)(vite@7.2.4(@types/node@24.5.2)(terser@5.44.1))(wrangler@4.50.0(@cloudflare/workers-types@4.20251121.0))
+      sonner:
+        specifier: ^2.0.7
+        version: 2.0.7(react-dom@19.3.0-canary-fb2177c1-20251114(react@19.3.0-canary-fb2177c1-20251114))(react@19.3.0-canary-fb2177c1-20251114)
     devDependencies:
       '@cloudflare/vite-plugin':
         specifier: 1.15.2
@@ -2219,6 +2222,12 @@ packages:
   socks@2.8.7:
     resolution: {integrity: sha512-HLpt+uLy/pxB+bum/9DzAgiKS8CX1EvbWxI4zlmgGCExImLdiad2iCwXT5Z4c9c3Eq8rP2318mPW2c+QbtjK8A==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
+
+  sonner@2.0.7:
+    resolution: {integrity: sha512-W6ZN4p58k8aDKA4XPcx2hpIQXBRAgyiWVkYhT7CvK6D3iAu7xjvVyhQHg2/iaKJZ1XVJ4r7XuwGL+WGEK37i9w==}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+      react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -5033,6 +5042,11 @@ snapshots:
     dependencies:
       ip-address: 10.1.0
       smart-buffer: 4.2.0
+
+  sonner@2.0.7(react-dom@19.3.0-canary-fb2177c1-20251114(react@19.3.0-canary-fb2177c1-20251114))(react@19.3.0-canary-fb2177c1-20251114):
+    dependencies:
+      react: 19.3.0-canary-fb2177c1-20251114
+      react-dom: 19.3.0-canary-fb2177c1-20251114(react@19.3.0-canary-fb2177c1-20251114)
 
   source-map-js@1.2.1: {}
 
